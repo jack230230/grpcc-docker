@@ -1,5 +1,3 @@
 FROM node:wheezy
 
-RUN npm install grpcc
-
-ENTRYPOINT grpcc
+RUN npm install -g grpcc
